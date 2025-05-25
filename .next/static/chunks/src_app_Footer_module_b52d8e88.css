@@ -1,0 +1,187 @@
+/* [project]/src/app/Footer.module.css [app-client] (css) */
+.Footer-module__Fj0HHq__footer {
+  background-color: #04364a;
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 100px;
+}
+
+.Footer-module__Fj0HHq__topSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff3;
+  padding-bottom: 20px;
+}
+
+.Footer-module__Fj0HHq__logoSection {
+  flex: 250px;
+  margin-bottom: 20px;
+}
+
+.Footer-module__Fj0HHq__logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.Footer-module__Fj0HHq__linkSection {
+  flex: 200px;
+  margin-bottom: 20px;
+}
+
+.Footer-module__Fj0HHq__linkSection h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.Footer-module__Fj0HHq__linkSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Footer-module__Fj0HHq__linkSection li {
+  margin-bottom: 8px;
+}
+
+.Footer-module__Fj0HHq__linkSection a {
+  color: #fffa;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.Footer-module__Fj0HHq__linkSection a:hover {
+  color: #00d4ff;
+}
+
+.Footer-module__Fj0HHq__contactSection {
+  flex: 250px;
+  margin-bottom: 20px;
+}
+
+.Footer-module__Fj0HHq__contactSection h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.Footer-module__Fj0HHq__bottomSection {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #fff8;
+}
+
+.Footer-module__Fj0HHq__linkButton {
+  background: none;
+  border: none;
+  color: #fffa;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  transition: color .3s;
+}
+
+.Footer-module__Fj0HHq__linkButton:hover {
+  color: #00d4ff;
+}
+
+.Footer-module__Fj0HHq__dialogOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0009;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: .3s Footer-module__Fj0HHq__fadeIn;
+  z-index: 999;
+}
+
+.Footer-module__Fj0HHq__dialogBox {
+  background: #fff;
+  color: #04364a;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 90%;
+  animation: .3s Footer-module__Fj0HHq__scaleIn;
+  position: relative;
+  text-align: center;
+}
+
+.Footer-module__Fj0HHq__closeButton {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #04364a;
+}
+
+@keyframes Footer-module__Fj0HHq__fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes Footer-module__Fj0HHq__scaleIn {
+  from {
+    transform: scale(.7);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.Footer-module__Fj0HHq__linkHover {
+  color: #fffa;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.Footer-module__Fj0HHq__linkHover:hover {
+  color: #00d4ff;
+}
+
+.Footer-module__Fj0HHq__hoverDialog {
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  background-color: #fff;
+  color: #04364a;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px #00000026;
+  font-size: 14px;
+  max-width: 250px;
+  animation: .2s ease-in-out Footer-module__Fj0HHq__fadeIn;
+  z-index: 999;
+}
+
+@keyframes Footer-module__Fj0HHq__fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*# sourceMappingURL=src_app_Footer_module_b52d8e88.css.map*/

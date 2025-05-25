@@ -1,0 +1,226 @@
+.header {
+    background-color: #0d3b66;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .topBar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #075985;
+  }
+  
+  .logoSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navBar {
+    background-color: #0d3b66;
+    padding: 10px 0;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navLinks li {
+    margin: 0 20px;
+  }
+  
+  .navLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navLinks a:hover {
+    color: #38bdf8;
+  }
+  .topRight {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .topButton {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .topButton:hover {
+    background-color: white;
+    color: #075985;
+  }
+  /* Existing styles you already have (keep them) */
+  
+  /* Add these new styles */
+  
+  .profileButton {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition: background-color 0.3s;
+  }
+  
+  .profileButton:hover {
+    background-color: white;
+  }
+  
+  .profileIcon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .navItem {
+    position: relative;
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    width: 220px;
+    background-color: #075985;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+    z-index: 10;
+  }
+  
+  .navItem:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }/* Add these new styles */
+  
+  .socialIcons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .iconLink {
+    color: white;
+    font-size: 20px;
+    margin: 0 8px;
+    transition: color 0.3s;
+  }
+  
+  .iconLink:hover {
+    color: #38bdf8; /* light blue on hover */
+  }
+  
+  /* Already existing styles below (keep them) */
+  /* .profileButton, .topButton, .topRight, etc. */
+  /* Keep your existing styles */
+  /* Add these or update where needed */
+  
+  .navBar {
+    background-color: #0d3b66;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* space between links and icons */
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navLinks li {
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .navLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navLinks a:hover {
+    color: #38bdf8;
+  }
+  
+  .socialIconsNav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .iconLink {
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    transition: color 0.3s;
+  }
+  
+  .iconLink:hover {
+    color: #38bdf8;
+  }
+  
+  /* Tooltip styles */
+  .tooltip {
+    visibility: hidden;
+    width: 220px;
+    background-color: #075985;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+    z-index: 10;
+  }
+  
+  .navItem:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* Social media icons in top bar removed — they are now in navbar */

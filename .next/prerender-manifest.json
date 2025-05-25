@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "routes": {
+    "/": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/build-id/index.json"
+    },
+    "/about": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/build-id/about.json"
+    }
+  },
+  "dynamicRoutes": {
+    "/blog/[slug]": {
+      "routeRegex": "^/blog/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/build-id/blog/[slug].json",
+      "fallback": false
+    }
+  },
+  "notFoundRoutes": []
+}

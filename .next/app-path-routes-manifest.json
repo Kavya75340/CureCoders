@@ -1,0 +1,10 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/emergency-contacts/page": "/emergency-contacts",
+  "/first-aid/page": "/first-aid",
+  "/hospital-list/page": "/hospital-list",
+  "/page": "/",
+  "/specialist-doctors/page": "/specialist-doctors",
+  "/symptom-diagnosis/page": "/symptom-diagnosis"
+}

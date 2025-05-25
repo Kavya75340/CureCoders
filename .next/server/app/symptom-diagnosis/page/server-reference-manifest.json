@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40139e779fcb997c53e18b30bdbeab9d6b24818927": {
+      "workers": {
+        "app/symptom-diagnosis/page": {
+          "moduleId": "[project]/.next-internal/server/app/symptom-diagnosis/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/symptom-diagnosis.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/symptom-diagnosis/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

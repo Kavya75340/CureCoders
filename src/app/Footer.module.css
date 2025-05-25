@@ -1,0 +1,184 @@
+.footer {
+    background-color: #04364A;
+    color: #ffffff;
+    padding: 40px 20px 20px;
+    font-family: 'Arial', sans-serif; 
+    margin-top: 100px;
+  }
+  
+  .topSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff33;
+    padding-bottom: 20px;
+  }
+  
+  .logoSection {
+    flex: 1 1 250px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .linkSection {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+  }
+  
+  .linkSection h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .linkSection ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .linkSection li {
+    margin-bottom: 8px;
+  }
+  
+  .linkSection a {
+    color: #ffffffaa;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .linkSection a:hover {
+    color: #00D4FF;
+  }
+  
+  .contactSection {
+    flex: 1 1 250px;
+    margin-bottom: 20px;
+  }
+  
+  .contactSection h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .bottomSection {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ffffff88;
+  }
+  /* Your existing styles above... */
+  
+  .linkButton {
+    background: none;
+    border: none;
+    color: #ffffffaa;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    transition: color 0.3s;
+  }
+  
+  .linkButton:hover {
+    color: #00D4FF;
+  }
+  
+  /* Dialog styles */
+  .dialogOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s ease;
+    z-index: 999;
+  }
+  
+  .dialogBox {
+    background: #ffffff;
+    color: #04364A;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 90%;
+    animation: scaleIn 0.3s ease;
+    position: relative;
+    text-align: center;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #04364A;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes scaleIn {
+    from {
+      transform: scale(0.7);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  /* Your existing styles above... */
+  
+  /* Hover link style */
+  .linkHover {
+    color: #ffffffaa;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .linkHover:hover {
+    color: #00D4FF;
+  }
+  
+  /* Simple hover dialog */
+  .hoverDialog {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    background-color: #ffffff;
+    color: #04364A;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    font-size: 14px;
+    max-width: 250px;
+    animation: fadeIn 0.2s ease-in-out;
+    z-index: 999;
+  }
+  
+  /* Fade animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

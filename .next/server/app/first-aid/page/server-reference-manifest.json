@@ -1,0 +1,16 @@
+{
+  "node": {
+    "406894de5ec705e189bfc86a1e7d634f67e9bad5e3": {
+      "workers": {
+        "app/first-aid/page": {
+          "moduleId": "[project]/.next-internal/server/app/first-aid/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/first-aid-flow.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/first-aid/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}
